@@ -5,6 +5,7 @@ const Ipad = new Schema({
     description: { type: String },
     img: { type: String },
     price: { type: String, required: true },
+    type: { type: String, required: true },
 })
 
 module.exports = model("Ipad", Ipad)
